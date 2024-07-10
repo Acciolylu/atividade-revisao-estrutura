@@ -7,9 +7,10 @@ public class Empresa {
     public Empresa() {
     }
 
-    public Empresa(String cnpj, String nome, String telefone) {
-        this.cnpj = cnpj;
+    public Empresa(String nome, String cnpj, String telefone) {
+       
         this.nome = nome;
+        this.cnpj = cnpj;
         this.telefone = telefone;
     }
 

@@ -8,9 +8,10 @@ public class Funcionario {
     public Funcionario() {
     }
 
-    public Funcionario(String cpf, String nome, String rg, String telefone, Empresa empresa) {
-        this.cpf = cpf;
+    public Funcionario(String nome, String cpf, String rg, String telefone, Empresa empresa) {
+        
         this.nome = nome;
+        this.cpf = cpf;
         this.rg = rg;
         this.telefone = telefone;
         this.empresa = empresa;
