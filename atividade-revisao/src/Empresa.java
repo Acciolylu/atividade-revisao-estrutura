@@ -39,7 +39,7 @@ public class Empresa {
 
     @Override
     public String toString() {
-        return "Empresa [cnpj=" + cnpj + ", nome=" + nome + ", telefone=" + telefone + "]";
+        return "Nome: " + nome + ", CNPJ: " + cnpj + ", Telefone: " + telefone;
     }
 
 
